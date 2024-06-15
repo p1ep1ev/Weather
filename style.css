@@ -1,0 +1,318 @@
+footer {
+    text-decoration:none;
+
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 69px;
+display: flex;
+text-align: left;
+text-align: center;
+hanging-punctuation: first last;
+text-indent: 1px;
+color: #525E6C;
+}
+
+.pogoda {
+    text-decoration: none;
+    color: #525E6C;
+    box-sizing: border-box;
+    position: absolute;
+    right: 1000px;
+    top: 80px;
+}
+
+.taro {
+    text-decoration: none;
+    color: #525E6C;
+    box-sizing: border-box;
+    position: absolute;
+    right: 600px;
+    top: 80px;
+}
+
+.goroskop {
+    text-decoration: none;
+    color: #525E6C;
+    box-sizing: border-box;
+    position: absolute;
+    right: 100px;
+    top: 80px;
+}
+
+.up {
+box-sizing: border-box;
+
+position: absolute;
+width: 1820px;
+height: 640px;
+border-radius: 20px;
+
+}
+
+.city {
+    left: 254px;
+    top: 283px;
+    position: absolute;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 83px;
+    line-height: 84px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-indent: 1px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+.date {
+    position:absolute;
+    z-index: 1;
+    color: #FFFFFF;
+    font-family: 'Jost';
+    font-size: 30px;
+    left: 265px;
+    top: 430px;
+}
+
+
+.time {
+    position:absolute;
+    z-index: 1;
+    color: #FFFFFF;
+    font-family: 'Jost';
+    font-size: 30px;
+    left: 600px;
+    top: 430px;
+
+
+}
+
+.rectangle {
+    top: 560px;
+    left: 260px;
+    position: absolute;
+    width: 526px;
+    height: 195px;
+    background: rgba(233, 228, 255, 0.84);
+    border-radius: 18px;
+    z-index: 1;
+}
+
+.veter {
+    z-index: 2;
+    position: absolute;
+    top: 590px;
+    left: 300px;
+    width: 62px;
+}
+
+.osad {
+    z-index: 2;
+    position: absolute;
+    top: 673px;
+    left: 300px;
+    width: 62px;
+}
+
+.rectangle2 {
+    position: absolute;
+    width: 65px;
+    height: 60px;
+    background: blue;
+    border-radius: 5px;
+    top: 590px;
+    left: 300px;
+
+}
+
+.rectangle3 {
+    position: absolute;
+    width: 65px;
+    height: 60px;
+    background: blue;
+    border-radius: 5px;
+    top: 670px;
+    left: 300px;
+
+}
+
+.vetra{
+    z-index: 2;
+    left: 399px;
+    top: 568px;
+    font-size: 34px;
+    position: absolute;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+}
+
+.veroyat{
+    z-index: 2;
+    left: 399px;
+    top: 647px;
+    font-size: 34px;
+    position: absolute;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+}
+
+.rectangle4 {
+    top: 405px;
+    right: 230px;
+    position: absolute;
+    width: 303px;
+    height: 396px;
+    filter: drop-shadow(0px 4px 4px #000000);
+    border-radius: 18px;
+}
+
+.rectangle5 {
+    right: 387px;
+    top: 420px;
+    position: absolute;
+    width: 119px;
+    height: 35px;
+    background: #332A70;
+    border-radius: 45px;
+}
+
+.today {
+    color: white;
+    z-index: 2;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    top: -20px;
+    left: 13px;
+    left: 18px;
+    position: absolute;
+    font-size: 25px;
+}
+
+.Weather{
+position: absolute;
+width: 139.63px;
+height: 129.27px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.79));
+transform: rotate(-1deg);
+top: 522px;
+right: 322px;
+}
+
+.temperature{
+    right: 343px;
+    top: 605px;
+    position: absolute;
+    width: 105px;
+    height: 43px;
+    font-family: 'PT Serif Caption';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 48px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.58);
+}
+
+.temperaturep{
+    right: 325px;
+    top: 684px;
+    position: absolute;
+    width: 98px;
+    height: 24px;
+    font-family: 'PT Serif Caption';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-indent: 1px;
+    color: #FFFFFF;
+}
+
+.rectangle6{
+    right: 28px;
+    bottom: -622px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 1800px;
+    height: 562px;
+    background: rgba(110, 109, 151, 0.37);
+    border-radius: 45px;
+    z-index: 3;
+}
+
+.Taro {
+    right: 462px;
+    top: 900px;
+    position: absolute;
+    width: 797px;
+    height: 48px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 46px;
+    display: flex;
+    color: #3D4D5F;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+    z-index: 4;
+}
+
+.text-taro{
+    position: absolute;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-size: 30px;
+    line-height: 57px;
+    text-align: center;
+    color: #000000;
+}
+
+
+button {
+    color: white;
+    margin-left: 190px;
+    margin-top: 200px;
+    font-size: 37px;
+    width: 198px;
+    height: 83px;
+    background: rgba(51, 42, 112, 0.85);
+    border-radius: 45px
+}
+
+.first-taro {
+    left: 208px;
+    top: 330px;
+    position: absolute;
+    width: 164px;
+    height: 224px;
+}
+.two-taro {
+    left: 599px;
+    top: 330px;
+    position: absolute;
+    width: 164px;
+    height: 224px;
+}
+.three-taro {
+    left: 995px;
+    top: 330px;
+    position: absolute;
+    width: 164px;
+    height: 224px;
+}
+
+.four-taro {
+    right: 248px;
+    top: 330px;
+    position: absolute;
+    width: 164px;
+    height: 224px;
+}
